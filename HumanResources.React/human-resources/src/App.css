@@ -1,0 +1,31 @@
+body {
+  background-color: #91ced4;
+}
+body * {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #327a81;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.table-users {
+  border: 1px solid #327a81;
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: auto;
+  width: 800px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  color: #2b686e
+}
