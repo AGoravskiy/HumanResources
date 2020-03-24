@@ -1,12 +1,6 @@
 import React from 'react';
 import style from './Employees.module.css';
-
-
-function formatDate(date) {
-    var jsDate = new Date(Date.parse(date));
-    return jsDate.toLocaleDateString();
-}
-
+import * as dateService from '../../dateService.js'
 
 const Employees = (props) => {
     return (
@@ -25,8 +19,8 @@ const Employees = (props) => {
                         <td>{employee.Position}</td>
                         <td>{employee.Email}</td>
                         <td>{employee.Phone}</td>
-                        <td>{formatDate(employee.DateOfBirth)}</td>
-                        <td>{formatDate(employee.StartDate)}</td>
+                        <td>{dateService.formatDate(employee.DateOfBirth)}</td>
+                        <td>{dateService.formatDate(employee.StartDate)}</td>
                     </tr>
                 )}
         </table>

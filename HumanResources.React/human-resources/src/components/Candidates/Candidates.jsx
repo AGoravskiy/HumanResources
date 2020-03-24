@@ -1,10 +1,6 @@
 import React from 'react';
 import './Candidates.module.css';
-
-function formatDate(date) {
-    var jsDate = new Date(Date.parse(date));
-    return jsDate.toLocaleDateString();
-}
+import * as dateService from './../../dateService.js'
 
 const Candidates = (props) => {
     return (
@@ -22,7 +18,7 @@ const Candidates = (props) => {
                         <td>{candidate.Position}</td>
                         <td>{candidate.Email}</td>
                         <td>{candidate.Phone}</td>
-                        <td>{formatDate(candidate.DateOfBirth)}</td>
+                        <td>{dateService.formatDate(candidate.DateOfBirth)}</td>
                     </tr>
                 )}
         </table>
