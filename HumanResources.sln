@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.WebApi", "Hu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.DataAccess", "HumanResources.DataAccess\HumanResources.DataAccess.csproj", "{752C04AF-5A94-4DB1-A4CA-748B0750090A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.WebReact", "HumanResources.WebReact\HumanResources.WebReact.csproj", "{8E446ACA-02C5-4F18-9919-D97EBBCCECFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{752C04AF-5A94-4DB1-A4CA-748B0750090A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752C04AF-5A94-4DB1-A4CA-748B0750090A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752C04AF-5A94-4DB1-A4CA-748B0750090A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E446ACA-02C5-4F18-9919-D97EBBCCECFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E446ACA-02C5-4F18-9919-D97EBBCCECFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E446ACA-02C5-4F18-9919-D97EBBCCECFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E446ACA-02C5-4F18-9919-D97EBBCCECFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
