@@ -1,6 +1,6 @@
 import React from 'react';
 import './Candidates.module.css';
-import * as dateService from './../../dateService.js'
+import * as dateService from '../../../dateService.js'
 
 const Candidates = (props) => {
     return (

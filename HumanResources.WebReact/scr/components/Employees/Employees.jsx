@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Employees.module.css';
-import * as dateService from '../../dateService.js'
+import * as dateService from '../../../dateService.js'
 
 const Employees = (props) => {
     return (
